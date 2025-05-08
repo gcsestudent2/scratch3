@@ -1,0 +1,17 @@
+Dim animals As string = {"cat","dog","hippo","llama","ox","rat","tiger","wolf"}
+Console.Write("What animal would you like to find ? ")
+Dim animalToFind As string = Console.ReadLine()
+Dim validAnimal As Boolean = False
+Dim start As Integer = 0
+Dim finish As Integer = animals.Length - 1
+While validAnimal = False And start <= finish
+    Dim mid as Integer = (start + finish) \ 2
+    If animals(mid) = animalToFind Then
+       validAnimal = True
+    ElseIf animalToFind > animals(mid) Then
+        start = mid + 1
+    Else
+        start = mid - 1    
+    End If
+End While
+Console.WriteLine(validAnimal)
