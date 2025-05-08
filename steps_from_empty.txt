@@ -1,0 +1,11 @@
+delete everything from repo except .gitignore
+code --install-extension ms-dotnettools.csdevkit
+dotnet new console --language VB
+create a launch.json file -> C# -> Launch Executable file (Console)
+change <target framework> to net8.0
+change <project-name.dll> to scratch3.dll
+delete the line '            "preLaunchTask": "build",'
+put Stop into Program.vb
+dotnet build .
+dotnet run .
+goto debug icon, check that ".NET Core Launch (console)" is selected, hit green triangle

@@ -2,7 +2,7 @@
 
   <PropertyGroup>
     <OutputType>Exe</OutputType>
-    <RootNamespace>temp</RootNamespace>
+    <RootNamespace>scratch3</RootNamespace>
     <TargetFramework>net8.0</TargetFramework>
   </PropertyGroup>
 

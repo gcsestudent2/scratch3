@@ -5,33 +5,15 @@
     "version": "0.2.0",
     "configurations": [
         {
-            "name": ".NET Core Docker Attach",
+            "name": ".NET Core Launch (console)",
             "type": "coreclr",
-            "request": "attach",
-            "processId": "${command:pickRemoteProcess}",
-            "pipeTransport": {
-                "pipeProgram": "docker",
-                "pipeArgs": [ "exec", "-i", "csharp" ],
-                "debuggerPath": "/root/vsdbg/vsdbg",
-                "pipeCwd": "${workspaceRoot}",
-                "quoteArgs": false
-            },
-            "sourceFileMap": {
-                "/work": "${workspaceRoot}/c#/src/"
-            }
-        },
-        {
-            "name": "Remote Docker",
-            "type": "go",
             "request": "launch",
-            "mode": "remote",
-            "remotePath":"/go/src/work/",
-            "port": 2345,
-            "host": "127.0.0.1",
-            "program": "${workspaceFolder}/golang/src/",
+            "program": "${workspaceFolder}/bin/Debug/net8.0/scratch3.dll",
             "args": [],
-            "trace" : "verbose",
-            "env" : {}
+            "cwd": "${workspaceFolder}",
+            "stopAtEntry": false,
+            "console": "internalConsole"
         }
+
     ]
 }
