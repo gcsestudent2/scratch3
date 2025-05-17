@@ -1,0 +1,13 @@
+pasted by Uncle Gordon on 16th May during lesson :
+
+        Dim myAge as Integer
+        Dim myHeight As Single
+        Dim jessIsOlderThanEloise As Boolean
+        Dim firstLetterOfTheAlphabet As Char
+        Dim mySentence As String
+
+        myAge = 15.5
+        Stop
+
+
+        
