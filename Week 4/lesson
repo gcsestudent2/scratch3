@@ -1,0 +1,21 @@
+Save the following text inti a file called "Genesis1.3.txt"
+        
+And God said, "Let there be light", and there was light. 
+And God saw that the light was good,
+ 
+Run the following program to read the file :
+
+        Dim filename = "Genesis1.3.txt"
+        Dim str As String
+        str = IO.File.ReadAllText(filename)   
+
+Look at the file in a text editor.
+Then look at it in a hex editor.
+
+Delete the file, 
+then run the following program to re-write it :
+        
+        Dim filename = "Genesis1.3.txt"
+        IO.File.WriteAllText(filename, "And God said, ""Let there be light"", and there was light." & vbCrLf & "And God saw that the light was good,")
+        
+ 
