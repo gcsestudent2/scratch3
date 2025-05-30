@@ -18,4 +18,16 @@ then run the following program to re-write it :
         Dim filename = "Genesis1.3.txt"
         IO.File.WriteAllText(filename, "And God said, ""Let there be light"", and there was light." & vbCrLf & "And God saw that the light was good,")
         
- 
+Key take-aways :
+- A "file" - is a sequence of bytes which gets stored on disk so that it survives the computer getting turned off. 
+- All files are given a name and get saved within a "folder". 
+- When our activity on a computer causes a file to be saved, we often get the option to choose the file name and folder name.
+- The size of a file is measured by the number of bytes it contains (a byte is 8 bits).
+- Bytes are like integer numbers so all files can be thought of just as sequence of numbers.
+- To view the sequence of numbers in a file we can use a "hex-editor", which shows us the numbers as hexadecimal codes (we'll look more at hexadecimal next week).
+- For some files, which we call text files, the hexadecimal numbers correspond to an table called "ASCII" which links each hexadecimal code to an individual character.
+- The ASCII code table can be thought of in a similar way to the MORSE code table - in both cases the tables allow us to convert text into something we can send/receive/save.
+- Not all files are text files, and for files which don't contain ascii text we just call them "binary" files.
+- When you look at, and interact with, a text file in a hex-editor it gives you a nice convenient link between each hex code and the text character it corresponds to.
+- We can read from any text file using the Visual Basic command "IO.File.ReadAllText"
+- We can write to any text file using the Visual Basic command "IO.File.WriteAllText"
