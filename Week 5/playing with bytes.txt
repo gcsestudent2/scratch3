@@ -1,0 +1,42 @@
+        Dim int_1 As Integer '\  We won't use these variables. I just want you to 
+        Dim int_2 As Int64   ' > see that several different integer value types 
+        Dim int_3 As Int16   '/  are available with different nubers of bits.
+
+        Dim byte_1 As Byte '\   
+        Dim byte_2 As Byte ' \_ The value type "Byte" is an integer with 8 bits.       
+        Dim byte_3 As Byte ' /  Here we create (or "dimension" or "allocate" or "declare") 
+        Dim byte_4 As Byte '/   four bytes ready to play with in the code below.        
+
+        '              ' Let's see what kind of values we can give to our play bytes
+        byte_1 = 5     ' set the value of our first play byte to 5
+        byte_2 = 250   ' set the value of our second play byte to 250
+        byte_3 = &HFA  ' set the value of our third play byte to 250 as well (using hexadecimal notation)
+        '              ' the byte value FA [1     1    1    1    1   0   1   0] has two nibbles F [1 1 1 1] and A [1 0 1 0]
+        '              '             250 =  128 + 64 + 32 + 16 + 8 + 0 + 2 + 0                 15= 8+4+2+1     10= 8+0+2+0
+        '                                                                               250 =  15*16         + 10*1
+        'byte_2 = -1    ' byte values can't be given a value lower than 0
+        'byte_2 = 256   ' byte values can't be given a value higher than 255  (=&HFF)
+        byte_2 = 250.5 ' byte values can be given a fractional number, but it gets rounded down to the nearest integer
+
+        '                   ' Let's try doing calculations with our play bytes
+        '                   ' using the operators (*/+-) just like the keys on a calculator.
+        byte_4 = byte_1 * 2 ' 5*2 = 10
+        byte_4 = byte_1 * 4 ' 5*4 = 20
+        byte_4 = byte_1 / 2 ' 5/2 = 2.5 but integers can only contain whole numbers 
+        '                   ' so 2.5 gets rounded down to nearest integer (2)
+
+        '                     ' Although there's no key on a calculator for bit shifting,
+        '                     ' the operators << and >> are available in VB.NET (see p40).
+        byte_4 = byte_1 << 1  ' shift left once is same as multiplying by 2
+        byte_4 = byte_1 << 2  ' shift left twice is same as multiplying by 2 and then 2 again (i.e. 4)
+        byte_4 = byte_1 >> 1  ' shift right once is same as dividing by 2
+        '                     ' here we shifted 5 [0 1 0 1] right to get 2 [0 0 1 0] and the rounding down
+        '                     ' was like a bit dropping off the right (also known as underflow).
+
+        '                     ' Sometimes bits can drop off the left too (also known as overflow)
+        byte_4 = 5 << 1       ' A simple shift left followed by a shift right gets back to where we started (5)
+        byte_4 = byte_4 >> 1  ' as long as there's no overflow.     
+        'byte_4 = byte_2 * 2  ' Multiplication isn't allowed if it would cause the value to overflow,
+        byte_4 = byte_2 << 1  ' but shift left is allowed and the overflow means a bit drops off the left,
+        '                     ' so the result of multipling 250 by 2 is 244 !
+        byte_4 = byte_4 >> 1  ' and shifting right doesn't get us back to where we started

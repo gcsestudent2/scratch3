@@ -1,0 +1,13 @@
+1. Convert the 8-bit binary number 0101 1101 into a decimal number (see green example on p38).
+
+2. Convert the decimal number 154 into an 8-bit binary number (see orange example on p38).
+
+3. Add the following 8-bit binary numbers together : 10100110 01100010 (see purple example on p39).
+
+4. Convert the hexadecimal number 7B into a decimal (see blue example on p41).
+
+5. Convert the binary number 10011101 to a hexadecimal (see brown example on p42).
+
+6. Convert the binary number 101011 to a hexadecimal (see orange example on p42).
+
+7. Convert the hexadecimal number 7F to binary (see pink example on p42).
