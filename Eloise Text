@@ -1,0 +1,6 @@
+pasted by Eloise on 6th June during lesson
+
+    console.writeline("enter a number")
+    dim newnumber as integer=console.readline()
+    console.writeline (newnumber/2)
+       

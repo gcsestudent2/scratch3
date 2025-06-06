@@ -9,5 +9,8 @@ pasted by Uncle Gordon on 16th May during lesson :
         myAge = 15.5
         Stop
 
-
-        
+pasted by Uncle Gordon on 6th June after lesson
+    dim x as integer 
+    For x = 1 to 12 
+    console.writeline (x*3)
+    Next    
