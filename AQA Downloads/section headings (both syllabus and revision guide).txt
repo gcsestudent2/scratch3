@@ -1,0 +1,50 @@
+3 SUBJECT CONTENT                       (Revision Guide Sections)
+
+3.1   Algorithms                        (Section One)
+   .1 Representing algorithms
+   .2 Efficiency of algorithms
+   .3 Searching algorithms
+   .4 Sorting algorithms
+
+3.2   Programming                       (Sections Two + Three)
+   .1 Data types
+   .2 Programming concepts
+   .3 Arithmetic operations in a programming language
+   .4 Relational operations in a programming language
+   .5 Boolean operations in a programming language
+   .6 Data structures
+   .7 Input/output
+   .8 String handling operations in a programming language
+   .9 Random number generation in a programming language
+   .10 Structured programming and subroutines (procedures and functions)
+   .11 Robust and secure programming
+   
+3.3   Data Representation               (Section Four) 
+   .1 Number bases
+   .2 Converting between number bases
+   .3 Units of information
+   .4 Binary arithmetic
+   .5 Character encoding
+   .6 Representing images
+   .7 Representing sound
+   .8 Data compression   
+
+3.4   Computer Systems                  (Section Five - first half)
+   .1 Hardware and software
+   .2 Boolean logic
+   .3 Software classification
+   .4 Classification of programming languages and translators
+   .5 Systems architecture
+
+3.5   Networks                          (Section Six - first half)
+
+3.6   Cyber Security                    (Section Six - second half)
+   .1 Fundamentals of cyber security
+   .2 Cyber security threats
+   .3 Methods to detect and prevent cyber security threats
+
+3.7   Databases and SQL                 (Section Five - second half)
+   .1 Relational databases
+   .2 Structured query language (SQL)
+   
+3.8   Ethics, law and societal impact   (Section Seven)
