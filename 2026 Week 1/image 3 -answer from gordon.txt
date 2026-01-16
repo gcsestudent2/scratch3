@@ -1,13 +1,1 @@
-5b
-The question is a bit vague and is an example of why its worth trying to become familiar with the syllabus. Before looking at the syllabus I was, like you, struggling to see exactly what the examiner was looking for. Looking briefly at the syllabus, however, it seems clear the question is designed to test your knowledge of item 3.2.1 "Understand the concept of a data type". As such I would suggest an answer something like the following :
-
-Individual pieces of information can be divided into a few different general types. For example whole numbers, fractional numbers, words, etc. Computing languages offer different data types to allow storage of these different information types, and storing a piece of information using the wrong type is likely to cause unintended behaviour.
-
-The syllabus is fairly concise and it should be possible for you to remember most of it, if you keep it to hand and look at it regularly in situations like this. 
-
-
-5c
-The information to be printed onto the receipt comes from a variable whose type is "Real", but the basic functions which perform printing accept inputs whose type is "String". Printing the information therefore requires that it gets converted from type Real to type String, for example :
-   total_cost_real <- CALCULATE_TOTAL_COST(some inputs .....)
-   total_cost_string <- REAL_TO_STRING(total_cost_real)
-   PRINT(total_cost_string)
+Your answers on this third page are all fine.
