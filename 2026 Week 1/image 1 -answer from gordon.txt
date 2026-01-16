@@ -1,0 +1,12 @@
+Q1&2. All good !
+Q3.
+Constant : yes, your suggestion is appropriate for a constant
+Variable 1 : "the number of people in the gym that day"
+             I get what you mean but it sounds a bit wrong because 
+             the number doesn't change only once every day.
+             Would maybe be better to describe it as "the number of people currently in the gym"
+Variable 2 : yes, your suggestion is appropriate for a variable
+But for all three : the question also asks you to explain why constant or variable !
+
+Your two variables are fine but another idea for a variable definitely needed is : 
+"customers_currently_in_gym" - a list of the people currently in the gym. This list needs to be a variable because it gets added to when someone scans in and deleted from when someone scans out.

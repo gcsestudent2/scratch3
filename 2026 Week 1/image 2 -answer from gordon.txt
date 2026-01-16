@@ -1,0 +1,8 @@
+4a - correct
+4b - correct 
+4c - probably OK but slightly ambiguous and would be safer to put brackets in to make sure the multiplication doesn't happen before the division 
+i.e. result <- ((markTest1 + markTest2)/160)*100
+
+5a - correct 
+5b - probably OK but possibly a bit vague
+     let's talk about this
