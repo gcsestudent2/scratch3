@@ -8,7 +8,7 @@
             "name": ".NET Core Launch (console)",
             "type": "coreclr",
             "request": "launch",
-            "program": "${workspaceFolder}/bin/Debug/net8.0/scratch3.dll",
+            "program": "${workspaceFolder}/bin/Debug/net10.0.0/scratch3.dll",
             "args": [],
             "cwd": "${workspaceFolder}",
             "stopAtEntry": false,
