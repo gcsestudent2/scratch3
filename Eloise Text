@@ -1,6 +1,16 @@
 pasted by Eloise on 6th June during lesson
 
-    console.writeline("enter a number")
-    dim newnumber as integer=console.readline()
-    console.writeline (newnumber/2)
+dim destination as character console.Readline (''enter one destination (paris, new york, berlin)'') 
+then 
+  user = console.writeline destination ('' '')
+Dim number of passengers as int 
+        console.readline ('' enter number of passengers '') 
+cost = charge $150 for every passenger regardless of the destination
+ELSE add surcharge depending on destination 
+ELSE IF how many passengers ther are 
+ passengers= console.writeline ((''$500 for paris'')(''$750 for berlin)(''$200 for new york'')
+ console.writeline (''final cost'')
+            
+ 
+
        
