@@ -1,16 +1,18 @@
 pasted by Uncle Gordon on 16th May during lesson :
 
-        Dim myAge as Integer
-        Dim myHeight As Single
-        Dim jessIsOlderThanEloise As Boolean
-        Dim firstLetterOfTheAlphabet As Char
-        Dim mySentence As String
-
-        myAge = 15.5
-        Stop
-
-pasted by Uncle Gordon on 6th June after lesson
-    dim x as integer 
-    For x = 1 to 12 
-    console.writeline (x*3)
-    Next    
+        dim user as string 
+        dim passengers as integer  
+          console.writeline (" user enter destination")
+          console.readline (" paris,new york,berlin")
+          console.readline (" number of passengers") 
+          console.writeline ("150 for every passenger")  
+       IF 
+        user enters "paris" THEN
+          console.writeline (500) 
+      else 
+        user input "berlin" THEN
+         console.writeline (750) 
+     else if
+        user inputs "berlin" THEN 
+         console.writeline (2000)
+     console.writeline (final cost)
