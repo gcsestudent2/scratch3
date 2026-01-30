@@ -4,3 +4,32 @@ pasted by Eloise on 6th June during lesson
     dim newnumber as integer=console.readline()
     console.writeline (newnumber/2)
        
+23rd Jan (Week2) :
+dim destination as character console.Readline (''enter one destination (paris, new york, berlin)'') 
+then 
+  user = console.writeline destination ('' '')
+Dim number of passengers as int 
+        console.readline ('' enter number of passengers '') 
+cost = charge $150 for every passenger regardless of the destination
+ELSE add surcharge depending on destination 
+ELSE IF how many passengers ther are 
+ passengers= console.writeline ((''$500 for paris'')(''$750 for berlin)(''$200 for new york'')
+ console.writeline (''final cost'')
+
+30th Jan (Week3 - recovered from photo) :
+dim surcharge as real
+dim passengers as int
+dim destination as character
+console.writeline(''enter one destination''(new york,berlin,paris)'' then
+destination = console.readline ()
+Dim number of passengers as int
+console.readline ('' enter int number of passengers '')
+cost = charge $150 for every passenger regardless of destination
+IF   add surcharge depending on destination then 
+ELSE IF number of passengers there are then
+passengers=console.writeline (''$500 for paris''&''$750 for berlin''&''$200 for new york'') then
+console.writeline (''final cost'')
+END IF
+
+
+

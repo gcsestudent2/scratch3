@@ -14,3 +14,61 @@ pasted by Uncle Gordon on 6th June after lesson
     For x = 1 to 12 
     console.writeline (x*3)
     Next    
+
+
+
+23rd jan (Week2)
+dim user as string 
+        dim passengers as integer  
+          console.writeline (" user enter destination")
+         console.readline (" paris,new york,berlin")
+          console.readline (" number of passengers") 
+          console.writeline ("150 for every passenger")  
+       IF 
+        user enters "paris" THEN
+          console.writeline (500) 
+      else 
+        user input "berlin" THEN
+         console.writeline (750) 
+     else if
+        user inputs "berlin" THEN 
+         console.writeline (2000)
+     console.writeline (final cost)
+
+30th Jan (Week3 - before lesson)
+       im user as string 
+        dim passengers as integer  
+          console.writeline (" user enter destination")
+          console.readline (" paris,new york,berlin")
+          console.readline (" number of passengers") 
+          console.writeline ("150 for every passenger")  
+        if user enters "paris" THEN
+          totalcost 
+          passenger cost = passengers x150 
+        elseif user inputs "berlin" THEN
+         totalcost = passengers x750
+     else if user inputs "new york" THEN 
+         totalcost = passengers x 2000
+     console.writeline = passenger cost + destination charge 
+     end if 
+
+30th Jan (Week3 - after working on it together in lesson)
+dim user as string 
+     dim destination as string
+        dim passengers as integer  
+        dim cost as integer 
+        Stop
+          console.writeline (" user enter destination")
+          console.writeline (" 0 = paris,1 = new york,2 = berlin")
+         destination=console.readline ()
+          console.writeline (" number of passengers") 
+          passengers=console.readline ()
+          if destination = "0" then 'paris 
+            cost = 150
+          elseif destination = "1" then 'new york
+           cost = 2000
+          elseif destination = "2" then 'berlin 
+           cost = 750 
+          else 
+          console.writeline ("bad answer")
+          end if  
