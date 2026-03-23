@@ -1,0 +1,44 @@
+Option Explicit
+
+Imports System
+
+Module Program
+    Sub Main(args As String())
+        ' ============ Top of editable area (don't change anything above this line)
+        Stop
+        Dim result as Integer
+        result = Ask_John("Main")
+        console.writeline ("John said the answer was " & result)
+        ' ============ Bottom of editable area (don't change anything below this line)
+    End Sub
+    '===========================================================
+    Function Ask_John(person_Asking As String) As Integer
+        Dim result_From_John as Integer
+        result_From_John = Ask_Michael("John")
+        return result_From_John
+    End Function
+    '===========================================================
+    Function Ask_Michael(person_Asking As String) As Integer
+        Dim result_From_Michael as Integer
+        result_From_Michael = Ask_Ella("Michael")
+        return result_From_Michael
+    End Function
+    '===========================================================
+    Function Ask_Ella(person_Asking As String) As Integer
+        Dim result_From_Ella as Integer
+        result_From_Ella = Ask_Jess("Ella")
+        return result_From_Ella        
+    End Function
+    '===========================================================
+    Function Ask_Jess(person_Asking As String) As Integer
+        Dim result_From_Jess as Integer
+        result_From_Jess = 42 
+        Tell_Gordon("Jess", result_From_Jess)
+        return result_From_Jess 
+    End Function
+    '===========================================================
+    Sub Tell_Gordon(person_Telling As String, result as Integer)
+        Stop
+        'do nothing !!
+    End Sub
+End Module

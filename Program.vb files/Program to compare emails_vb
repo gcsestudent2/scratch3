@@ -5,13 +5,18 @@ Imports System
 Module Program
     Sub Main(args As String())
         ' ============ Top of editable area (don't change anything above this line)
-        'Stop
-        console.writeline ("enter email")
+        Stop
         dim emailadress as string
-        emailadress = console.readline()
-        console.writeline ("enter the same email again")
         dim emailadress2 as string 
-        emailadress2= console.readline()
+
+        emailadress = GetEmail("enter email")
+        'console.writeline ("enter email")
+        'emailadress = console.readline()
+
+        emailadress2 = GetEmail("enter the same email again")
+        'console.writeline ("enter the same email again")
+        'emailadress2= console.readline()
+
         if emailadress = emailadress2 then
             console.writeline("match")
         else 
@@ -19,4 +24,11 @@ Module Program
         end if     
         ' ============ Bottom of editable area (don't change anything below this line)
     End Sub
+    Function GetEmail(prompt as string) As String
+        Stop 
+        console.writeline (prompt)
+        dim result as string
+        result = console.readline()      
+      return result
+    End Function
 End Module
